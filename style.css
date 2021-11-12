@@ -2,44 +2,22 @@ body{
     margin: 0%;
 }
 
-.menu{
+.header{
     padding: 10px;
     background-color: green;
     color: white;
     display: flex;
-    justify-content: space-around;
+   justify-content: center;
     
 }
 
-/* .menu a{
-    color: white;
-    text-decoration: none;
-}
-
-.menu a:hover{
-    background-color: tomato;
-}
-ul{
-    list-style-type: none;
-} */
-
-/* 
 .dropbtn{
-    display:block;
-    background-color: whitesmoke;
-    position: absolute;
-    z-index: 1;
+    display: flex;
+    justify-content: center;
 }
 
-.dropbtn a {
-    padding: 10px;
-    background-color: whitesmoke;
-    color: black;
-    display: block;
-    text-decoration: none;
+.headercontent{
+    float:right;
+    margin: -30px;
+    
 }
-
-.menu :hover .dropbtn{
-    display: block;
-} */
-
