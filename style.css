@@ -8,16 +8,26 @@ body{
     color: white;
     display: flex;
    justify-content: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
 .dropbtn{
     display: flex;
     justify-content: center;
+    font-size: 25px;
 }
 
 .headercontent{
     float:right;
     margin: -30px;
+    z-index: 0;
+    
+}
+
+.thumbnail{
+    z-index: 0;
+    margin: -30px;
+    display: flex;
     
 }

@@ -11,22 +11,25 @@
                     <input id="search" type="search"><input type="submit" value="submit">
                 </form>
             </div>
-
+            <div class="thumbnail">
+                <img src="./images/ben10-logo.png" width="70px">
+            </div>
         
             <div class="dropbtn"> 
                 <label for="ben10">Choose character:</label>  
-                <select name="ben10" id="ben10">
-                <option value="select">-----select-----</option>
-                <option value="greymatter">greymatter</option>
-                <option value="heat blast">heat blast</option>
-                <option value="diamond head">diamond head</option>
-                <option value="stinkfly">stinkfly</option>
-                <option value="upgrade">upgrade</option>
-                <option value="canonbolt">canonbolt</option>
-                <option value="xlr8">xlr8</option>
-                <option value="ghost freak">ghost freak</option>
+                <select name="ben10" id="ben10" onchange="myfunc()">
+                <option value="select" >-----select-----</option>
+                <option value="greymatter" id="grey" >greymatter</option>
+                <option value="heat blast" id="heat">heat blast</option>
+                <option value="diamond head" id="diamond">diamond head</option>
+                <option value="stinkfly" id="stink">stinkfly</option>
+                <option value="upgrade" id="upgrade">upgrade</option>
+                <option value="canonbolt" id="canon">canonbolt</option>
+                <option value="xlr8" id="xlr">xlr8</option>
+                <option value="ghost freak" id="ghost">ghost freak</option>
             </select>
-              
+              <!-- <img src="./images/OmniverseGreyMatter.png" id="getImage"> -->
             </div>
+            <script src="./init.js"></script>
     </body>
 </html>
