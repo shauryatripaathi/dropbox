@@ -7,7 +7,8 @@ body{
     background-color: green;
     color: white;
     display: flex;
-   justify-content: center;
+    gap: 30px;
+    justify-content: start;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
@@ -30,4 +31,12 @@ body{
     margin: -30px;
     display: flex;
     
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.header a:hover{
+    color: yellow;
 }
